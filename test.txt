@@ -1,0 +1,5 @@
+and F2.dat_admissao <  '202?-?-01 00:00:00'
+and F1.val_indice_rubrica = F2.val_indice_rubrica
+and F1.num_carga_horaria_efetivo = F2.num_carga_horaria_efetivo
+and (F1.dat_fim_aposentadoria NOT BETWEEN '202?-?-01' and '202?-?-01' or F1.dat_fim_aposentadoria IS NULL)
+and (F1.dat_inicio_aposentadoria NOT BETWEEN '202?-10-01' and '202?-12-01' OR F1.dat_inicio_aposentadoria IS NULL);
