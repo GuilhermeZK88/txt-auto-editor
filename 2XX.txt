@@ -1,2 +1,0 @@
-Se aposentou em aposentadoria_inicial, código AnoMês: ano_mes
-eu nasci a dezmilanos atrás, eu nasci em aposentadoria_final
