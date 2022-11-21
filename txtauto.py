@@ -2,6 +2,7 @@ import os #listdir, path.exists, makedirs, getcwd, mkdir
 from datetime import datetime
 from csv import reader
 from re import sub
+from sys import exit
 
 # Assuming the .csv info file is in the directory of this script
 dir_path = os.getcwd()
